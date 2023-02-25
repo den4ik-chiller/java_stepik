@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="702.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.snowman.HelloController">
+   <children>
+      <Circle fill="WHITE" layoutX="362.0" layoutY="340.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="366.0" layoutY="244.0" radius="80.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="366.0" layoutY="155.0" radius="64.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="372.0" layoutY="234.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="372.0" layoutY="256.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="372.0" layoutY="277.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="384.0" layoutY="192.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="366.0" layoutY="192.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="351.0" layoutY="186.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="398.0" layoutY="186.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="351.0" layoutY="121.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="390.0" layoutY="121.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fill="WHITE" layoutX="366.0" layoutY="91.0" radiusX="46.0" radiusY="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="39.0" layoutX="336.0" layoutY="43.0" stroke="BLACK" strokeType="INSIDE" width="61.0" />
+      <Line endX="7.0" endY="-0.4999961853027344" layoutX="390.0" layoutY="63.0" startX="-54.0" startY="-0.4999961853027344" />
+      <Polyline fill="WHITE" layoutX="422.0" layoutY="182.0" points="-50.0, -40.0, 21.20001220703125, -40.00001525878906, -39.5999755859375, -25.199996948242188, -50.0, -40.00001525878906" strokeType="INSIDE" />
+      <Line endX="81.20001220703125" endY="-27.800003051757812" layoutX="446.0" layoutY="219.0" startY="18.599990844726562" />
+      <Line endX="-27.29290771484375" endY="-1.4142303466796875" layoutX="555.0" layoutY="193.0" startX="-17.39996337890625" startY="-24.199996948242188" />
+      <Line endX="-43.70709228515625" endY="-24.000045776367188" layoutX="570.0" layoutY="217.0" startX="-17.39996337890625" startY="-24.199996948242188" />
+      <Line endX="-38.0" endY="-10.707138061523438" layoutX="565.0" layoutY="203.0" startX="-17.39996337890625" startY="-24.199996948242188" />
+      <Line endX="89.0" endY="7.5999908447265625" layoutX="197.0" layoutY="218.0" startX="8.414169311523438" startY="-24.707138061523438" />
+      <Line endX="-27.29290771484375" endY="-1.4142303466796875" layoutX="232.0" layoutY="194.0" startX="-40.39997863769531" startY="-16.400009155273438" />
+      <Line endX="-38.80000305175781" endY="-24.199996948242188" layoutX="225.0" layoutY="217.0" startX="-17.39996337890625" startY="-24.199996948242188" />
+      <Line endX="-38.0" endY="-10.707138061523438" layoutX="224.0" layoutY="215.0" startX="-17.39996337890625" startY="-24.199996948242188" />
+   </children>
+</AnchorPane>
