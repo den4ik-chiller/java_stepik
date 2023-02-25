@@ -1,4 +1,4 @@
-package java_stepik.TrafficLight.src.main.java.com.example.trafficlights;
+package java_stepik.TrafficLight.java.com.example.trafficlights;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
