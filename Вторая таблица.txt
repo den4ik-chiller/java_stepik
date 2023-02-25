@@ -1,6 +1,9 @@
-CREATE TABLE genres ( id INT AUTO_INCREMENT PRIMARY KEY, genre VARCHAR(255) NOT NULL );
+CREATE TABLE genres ( 
+id INT AUTO_INCREMENT PRIMARY KEY, 
+genre VARCHAR(255) NOT NULL );
 
-INSERT INTO genres (genre) VALUES ('Fiction'), ('Non-Fiction'), ('Mystery'), ('Romance'), ('Science Fiction');
+INSERT INTO genres (id, genre) VALUES 
+(1, 'Fiction'), (2, 'Non-Fiction'), (3, 'Mystery'), (4, 'Romance'), (5, 'Science Fiction');
 
 ALTER TABLE books ADD COLUMN genre_id INT NOT NULL;
 
