@@ -1,3 +1,5 @@
+package java_stepik.Transport;
+
 interface Military{
 
 }
