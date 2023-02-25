@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="563.0" prefWidth="736.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trafficlights.HelloController">
+   <children>
+      <Polyline fill="BLACK" layoutX="225.0" layoutY="80.0" points="-31.5999755859375, 24.800003051757812, 81.20001220703125, 24.800003051757812, 81.20001220703125, 90.40000915527344, -31.5999755859375, 24.800003051757812" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="335.0" layoutX="305.0" layoutY="85.0" stroke="BLACK" strokeType="INSIDE" width="126.0" />
+      <Circle fill="RED" layoutX="368.0" layoutY="155.0" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#f6ff00" layoutX="368.0" layoutY="261.0" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#0d943a" layoutX="368.0" layoutY="361.0" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polyline fill="BLACK" layoutX="225.0" layoutY="180.0" points="-31.5999755859375, 24.800003051757812, 81.20001220703125, 24.800003051757812, 81.20001220703125, 90.40000915527344, -31.5999755859375, 24.800003051757812" strokeType="INSIDE" />
+      <Polyline fill="BLACK" layoutX="225.0" layoutY="283.0" points="-31.5999755859375, 24.800003051757812, 81.20001220703125, 24.800003051757812, 81.20001220703125, 90.40000915527344, -31.5999755859375, 24.800003051757812" strokeType="INSIDE" />
+      <Polyline fill="BLACK" layoutX="460.0" layoutY="81.0" points="-31.5999755859375, 24.800003051757812, 81.20001220703125, 24.800003051757812, 81.20001220703125, 90.40000915527344, -31.5999755859375, 24.800003051757812" rotate="180.0" strokeType="INSIDE">
+         <rotationAxis>
+            <Point3D y="90.0" z="1.0" />
+         </rotationAxis>
+      </Polyline>
+      <Polyline fill="BLACK" layoutX="460.0" layoutY="181.0" points="-31.5999755859375, 24.800003051757812, 81.20001220703125, 24.800003051757812, 81.20001220703125, 90.40000915527344, -31.5999755859375, 24.800003051757812" rotate="180.0" strokeType="INSIDE">
+         <rotationAxis>
+            <Point3D y="90.0" z="1.0" />
+         </rotationAxis>
+      </Polyline>
+      <Polyline fill="BLACK" layoutX="460.0" layoutY="282.0" points="-31.5999755859375, 24.800003051757812, 81.20001220703125, 24.800003051757812, 81.20001220703125, 90.40000915527344, -31.5999755859375, 24.800003051757812" rotate="180.0" strokeType="INSIDE">
+         <rotationAxis>
+            <Point3D y="90.0" z="1.0" />
+         </rotationAxis>
+      </Polyline>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="101.0" layoutX="339.0" layoutY="420.0" stroke="BLACK" strokeType="INSIDE" width="58.0" />
+      <CubicCurve controlX1="-130.0" controlX2="-50.0" controlY1="-25.200000762939453" controlY2="-25.200000762939453" endX="-50.0" layoutX="460.0" layoutY="82.0" startX="-130.0" stroke="BLACK" />
+   </children>
+</AnchorPane>
